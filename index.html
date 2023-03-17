@@ -26,14 +26,22 @@
             </button>
             <a href="#">Home</a>
             <a href="#">Sobre nós</a>
-            <a href="#">Sou Funcionário</a>
+            <a href="#" id="login">Sou Funcionário</a>
         </div>
+    </div>
+    <div tabindex="0" onclick="closeSidebar()" class="content">
+    <img src="imagens/fundo_site.png" alt="fundo" id="fundo">
+    <div id="título">
+        <h4>CONHEÇA NOSSA HISTÓRIA</h4>
+        <h1>Sua independência começa aqui.</h1>
+    </div>
     </div>
 </body>
 <script>
     var header = document.getElementById('header');
     var navigationHeader = document.getElementById('navigation_header');
     var showSidebar = false;
+
 
     function toggleSidebar() {
         showSidebar = !showSidebar;
@@ -47,5 +55,17 @@
             content.style.filter = '';
         }
     }
+
+    function closeSidebar() {
+        if(showSidebar) {
+            toogleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event) {
+        if(window.innerWidth > 768 && showSidebar){
+            toogleSidebar();
+        }
+    });
 </script>
 </html>
