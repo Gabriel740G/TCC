@@ -220,7 +220,7 @@ p#p2 {
 #valor3 {
     color: var(--cor4);
     text-align: center;
-    transform: translate(8px, 268px);
+    transform: translate(16px, 268px);
 }
 
 p#p3 {
