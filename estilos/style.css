@@ -374,7 +374,7 @@ div#parte4 {
 }
 
 #texto {
-    transform: translateX(-33px);
+    transform: translateX(-8px);
     width: 400px;
 }
 
@@ -404,5 +404,5 @@ p#p5 {
 
 img#app {
     width: 365px;
-    transform: translate(23px, 80px);
+    transform: translate(50px, 80px);
 }
