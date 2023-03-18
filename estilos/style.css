@@ -374,7 +374,7 @@ div#parte4 {
 }
 
 #texto {
-    transform: translateX(-20px);
+    transform: translateX(-30px);
     width: 400px;
 }
 
@@ -404,13 +404,7 @@ p#p5 {
 
 img#app {
     width: 365px;
-    transform: translate(37px, 80px);
+    transform: translate(24px, 80px);
 }
 
 /* Configurações do rodapé */
-
-footer {
-    background-color: black;
-    width: 100%;
-    height: 10px;
-}
