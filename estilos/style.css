@@ -245,15 +245,122 @@ p#p3 {
 div#parte3 {
     background-color: var(--cor4);
     width: 100%;
+    transform: translateY(-113px);
 }
 
 h1#t5 {
-    width: 206px;
-    transform: translate(105px, -129px);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 p#p4 {
     text-align: center;
-    transform: translate(4px, -114px);
-    width: 400px;
+    width: 77%;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviewSection {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviewItem {
+    width: 300px;
+    padding: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+    transition: all .2s linear;
+    color: white;
+}
+
+.reviewItem:hover {
+    border-color: aqua;
+    transform: scale(1.01);
+    background-color: #090921;
+    box-shadow: 0 0px 5px 0px var(--cor3);
+}
+
+.clientImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clientImage span {
+    margin-left: 10px;
+}
+
+.clientImage img {
+    width: 40px;
+}
+
+.top {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+}
+
+.top ul li {
+    padding-left: 4px;
+}
+
+article p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    #container {
+        height: auto;
+    }
+
+    #p4 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .reviewSection {
+        padding: 0;
+    }
+
+    .reviewItem {
+        width: 100%;
+    }
+
+    .clientImage {
+        margin-bottom: 0.6rem;
+    }
+
+    .top {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
