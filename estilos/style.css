@@ -135,7 +135,7 @@ h2#t3 {
 div#parte2 {
     background-color: var(--cor1);
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     transform: translateY(-166px);
 }
 
@@ -178,9 +178,23 @@ p#p1 {
 #carro {
     width: 280px;
     height: 192px;
-    transform: translate(54px, 160px);
+    transform: translate(57px, 160px);
 }
 
 .logo_header {
     z-index: 2;
+}
+
+p#p2 {
+    color: var(--cor4);
+    width: 278px;
+    text-align: center;
+    font-size: 19px;
+    transform: translate(62px, 156px);
+}
+
+#botao2 {
+    position: absolute;
+    top: 1000px;
+    left: 122px;
 }
