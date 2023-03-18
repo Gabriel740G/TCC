@@ -159,7 +159,7 @@ img#moto {
 #valor1 {
     text-align: center;
     color: var(--cor4);
-    transform: translate(-2px, 53px);
+    transform: translate(-10px, 53px);
 }
 
 p#p1 {
@@ -194,7 +194,7 @@ p#p1 {
 #valor2 {
     color: var(--cor4);
     text-align: center;
-    transform: translate(1px, 143px);
+    transform: translate(-13px, 143px);
 }
 
 p#p2 {
@@ -220,7 +220,7 @@ p#p2 {
 #valor3 {
     color: var(--cor4);
     text-align: center;
-    transform: translate(-3px, 268px);
+    transform: translate(-14px, 268px);
 }
 
 p#p3 {
@@ -235,4 +235,15 @@ p#p3 {
     position: absolute;
     top: 1680px;
     left: 115px;
+}
+
+/* Configurações da parte de depoimentos */
+
+div#parte3 {
+    background-color: var(--cor4);
+    width: 100%;
+}
+
+h1#t5 {
+    width: 100px;
 }
