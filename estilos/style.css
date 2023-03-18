@@ -159,7 +159,8 @@ img#moto {
 #valor1 {
     text-align: center;
     color: var(--cor4);
-    transform: translate(-10px, 53px);
+    transform: translate(121px, 53px);
+    width: 140px;
 }
 
 p#p1 {
@@ -194,7 +195,8 @@ p#p1 {
 #valor2 {
     color: var(--cor4);
     text-align: center;
-    transform: translate(-13px, 143px);
+    transform: translate(125px, 143px);
+    width: 140px;
 }
 
 p#p2 {
@@ -220,7 +222,8 @@ p#p2 {
 #valor3 {
     color: var(--cor4);
     text-align: center;
-    transform: translate(16px, 268px);
+    transform: translate(133px, 268px);
+    width: 140px;
 }
 
 p#p3 {
@@ -252,4 +255,5 @@ h1#t5 {
 p#p4 {
     text-align: center;
     transform: translate(4px, -114px);
+    width: 400px;
 }
