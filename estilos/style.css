@@ -23,6 +23,10 @@ body {
     transform: translateY(28px);
 }
 
+.logo_header {
+    z-index: 2;
+}
+
 .header,
 .navigation_header {
     display: flex;
@@ -139,17 +143,23 @@ div#parte2 {
     transform: translateY(-166px);
 }
 
+h1#t4 {
+    color: var(--cor4);
+    font-weight: lighter;
+    transform: translate(36px, 41px);
+    width: 350px;
+}
+
 img#moto {
     width: 250px;
     height: 192px;
     transform: translate(74px, 69px);
 }
 
-h1#t4 {
+#valor1 {
+    text-align: center;
     color: var(--cor4);
-    font-weight: lighter;
-    transform: translate(36px, 41px);
-    width: 350px;
+    transform: translate(-46px, 53px);
 }
 
 p#p1 {
@@ -171,7 +181,7 @@ p#p1 {
 
 #botao1 {
     position: absolute;
-    top: 531px;
+    top: 565px;
     left: 119px;
 }
 
@@ -181,8 +191,10 @@ p#p1 {
     transform: translate(57px, 160px);
 }
 
-.logo_header {
-    z-index: 2;
+#valor2 {
+    color: var(--cor4);
+    text-align: center;
+    transform: translate(-46px, 139px);
 }
 
 p#p2 {
@@ -195,7 +207,7 @@ p#p2 {
 
 #botao2 {
     position: absolute;
-    top: 1000px;
+    top: 1105px;
     left: 122px;
 }
 
@@ -203,6 +215,12 @@ p#p2 {
     width: 346px;
     height: 179px;
     transform: translate(32px, 265px);
+}
+
+#valor3 {
+    color: var(--cor4);
+    text-align: center;
+    transform: translate(-53px, 264px);
 }
 
 p#p3 {
@@ -215,6 +233,6 @@ p#p3 {
 
 #botao3 {
     position: absolute;
-    top: 1520px;
-    left: 121px;
+    top: 1680px;
+    left: 115px;
 }
