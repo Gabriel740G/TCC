@@ -97,14 +97,14 @@ body {
 
 img#fundo {
     width: 100%;
-    height: 63vh;
+    height: 60vh;
 }
 
 /* Configurações de Títulos na imagem de fundo */
 
 div#título {
     text-align: center;
-    transform: translateY(-26px);
+    transform: translateY(-34px);
     text-shadow: 1px 1px 2px black;
 }
 
@@ -123,16 +123,17 @@ h1#t2 {
 }
 
 h2#t3 {
-    transform: translate(0px, -193px);
+    transform: translate(65px, -193px);
     color: white;
     font-weight: lighter;
+    width: 300px;
 }
 
 /* Configurações da segunda parte do site */
 
 div#parte2 {
     background-color: var(--cor1);
-    width: 100vw;
+    width: 100%;
     height: 1000px;
     transform: translateY(-162px);
 }
@@ -146,7 +147,7 @@ img#moto {
 h1#t4 {
     color: var(--cor4);
     font-weight: lighter;
-    transform: translate(23px, 41px);
+    transform: translate(36px, 41px);
     width: 350px;
 }
 
