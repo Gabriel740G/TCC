@@ -408,3 +408,31 @@ img#app {
 }
 
 /* Configurações do rodapé */
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    color: white;
+    display: flex;
+    padding-top: 21px;
+    margin-top: -116px;
+}
+
+div#pt1 {
+    margin-left: 13px;
+}
+
+div#pt2 {
+    margin-left: 71px;
+}
+
+#tel {
+    margin-bottom: 3px;
+}
+
+#number {
+    margin-bottom: 6px;
+}
+
+
