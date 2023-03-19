@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    div#q1 {
+        height: 430px;
+        width: 1095px;
+    }
+
+    div#q2 {
+        height: 302px;
+        width: 800px;
+    }
+
+    h3 {
+        transform: translate(452px, -56px);
+    }
+
+    img#car {
+        transform: translate(-424px, -1px);
+        height: 78px;
+        width: 161px;
+    }
+
+    input {
+        padding: 20px;
+        width: 400px;
+        height: 5px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    #iuser {
+        font-size: 18px;
+    }
+
+    #ipass {
+        font-size: 18px;
+    }
+
+    button#entrar { 
+        transform: translateY(263px);
+        padding: 13px;
+        font-size: 17px;
+    }
+}
