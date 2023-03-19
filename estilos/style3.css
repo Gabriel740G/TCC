@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #020122;
+    --cor2: #E05125;
+    --cor3: #D8D8D5;
+    --cor4: #fefeff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+/* Configurações da Navbar */
+
+.img_logo_header {
+    width: 122px;
+    transform: translateY(28px);
+}
+
+.logo_header {
+    z-index: 2;
+}
+
+.header,
+.navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    background-color: var(--cor1);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.538);
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.navigation_header {
+    gap: 3em;
+    z-index: 2;
+}
+
+.navigation_header a {
+    text-decoration: none;
+    color: var(--cor4);
+    transition: 1s;
+    font-weight: bold;
+}
+
+.navigation_header a:hover {
+    color: var(--cor2);
+}
+
+#login {
+    background-color: var(--cor4);
+    width: 114px;
+    color: black;
+    text-align: center;
+    border-radius: 22px;
+    padding: 2px;
+}
+
+.btn_icon_header {
+    background-color: transparent;
+    border: none;
+    color: var(--cor4);
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .btn_icon_header {
+        display: block;
+    }
+    .navigation_header {
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: #05032c;
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+}
+
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    top {margin-left: -10vw;}
+}
+
+/* Configurações de div */
+
+div#q1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor4);
+    width: 420px;
+    height: 400px;
+}
+
+div#q2 {
+    background-color: var(--cor3);
+    height: 260px;
+    width: 341px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Configurações do Título */
+
+h3 {
+    background-color: var(--cor3);
+    width: 180px;
+    padding: 4px;
+    transform: translate(143px, -48px);
+}
+
+/* Configurações de Formulário */
+
+form {
+    transform: translateY(70px);
+}
+
+label {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+input {
+    padding: 7px;
+    width: 215px;
+    border: none;
+}
+
+#iuser {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+#ipass {
+    text-align: center;
+}
+
+button#entrar {
+    transform: translateY(244px);
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Configurações de Imagem */
+
+img#car {
+    height: 66px;
+    width: 100px;
+    transform: translate(-141px, 2px);
+}
