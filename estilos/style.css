@@ -412,10 +412,10 @@ img#app {
 footer {
     background-color: black;
     width: 100%;
-    height: 123px;
+    height: 149px;
     color: white;
     display: flex;
-    padding-top: 21px;
+    padding-top: 20px;
     margin-top: -115px;
 }
 
@@ -435,4 +435,7 @@ div#pt2 {
     margin-bottom: 6px;
 }
 
+#time {
+    margin-bottom: 3px;
+}
 
