@@ -97,6 +97,54 @@ body {
     top {margin-left: -10vw;}
 }
 
+/* Configurações dos Textos */
+
+h2 {
+    transform: translate(153px, 56px);
+    width: 128px;
+}
+
+p#p1 {
+    width: 278px;
+    text-align: center;
+}
+
+p#p2 {
+    width: 278px;
+    text-align: center;
+}
+
+p#p3 {
+    width: 300px;
+    text-align: center;
+    transform: translate(72px, 91px);
+}
+
+p#p4 {
+    width: 300px;
+    text-align: center;
+    transform: translate(69px, 114px);
+}
+
+div#texto {
+    width: 300px;
+    transform: translate(77px, 71px);
+}
+
+/* Configurações de Imagem */
+
+#img1 {
+    width: 300px;
+    height: 193px;
+    transform: translate(64px, 85px);
+}
+
+#img2 {
+    width: 300px;
+    height: 193px;
+    transform: translate(64px, 104px);
+}
+
 /* Configurações do rodapé */
 
 footer {
