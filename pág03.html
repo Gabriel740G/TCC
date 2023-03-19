@@ -37,9 +37,9 @@
             <div id="q2">
                 <form action="cadastro.php" method="post">
                     <label for="iuser">Insira o nome do usuário:</label><br>
-                    <input type="text" name="user" id="iuser" placeholder="Ex:Henrique&Heitor ADM"><br>
+                    <input type="text" name="user" id="iuser" placeholder="Ex:Henrique&Heitor ADM" required minlength="8" maxlength="50"><br>
                     <label for="ipass">Insira a senha do usuário:</label><br>
-                    <input type="password" name="pass" id="ipass" placeholder="Ex:Muller83339">
+                    <input type="password" name="pass" id="ipass" placeholder="Ex:Muller83339" required minlength="8" maxlength="50">
                 </form>
             </div>
             <button id="entrar"><em>LOGAR</em></button>
