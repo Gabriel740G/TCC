@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    main > h2 {
+        transform: translate(330px, 20px);
+    }
+
+    main > div#texto {
+        transform: translate(250px, 22px);
+    }
+
+    main > div#texto2 {
+        transform: translate(700px, -564px);
+    }
+
+    footer {
+        margin-top: -140px;
+    }
+    
+}
