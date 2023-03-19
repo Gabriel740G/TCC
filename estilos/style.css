@@ -231,13 +231,13 @@ p#p3 {
     width: 370px;
     text-align: center;
     font-size: 19px;
-    transform: translate(22px, 300px);
+    transform: translate(18px, 300px);
 }
 
 #botao3 {
     position: absolute;
     top: 1680px;
-    left: 128px;
+    left: 124px;
 }
 
 /* Configurações da parte de depoimentos */
