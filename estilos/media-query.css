@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main > img#fundo {
+        height: 80vh;
+    }
+
+    main > div#título {
+        position: absolute;
+        top: 515px;
+        left: 180px;
+    }
+
+    main > div#título > h2#t3 {
+        position: absolute;
+        bottom: -127px;
+        left: 270px;
+    }
+
+    main > div#parte2 {
+        position: absolute;
+        top: 738px;
+        height: 737px;
+    }
+
+    main > div#parte3 {
+        position: absolute;
+        top: 1405px;
+    }
+
+    div#parte2 > div#cartas > h1#t4 {
+        position: absolute;
+        left: 448px;
+    }
+
+    div#parte2 > div#cartas > div#cartaA {
+        position: absolute;
+        top: 52px;
+        left: 107px;
+    }
+
+    div#parte2 > div#cartas > div#cartaB {
+        position: absolute;
+        top: -38px;
+        left: 441px;
+    }
+
+    div#parte2 > div#cartas > div#cartaAB {
+        position: absolute;
+        top: -150px;
+        left: 811px;
+    }
+
+    div#parte2 > div#cartas > div#cartaA > a#botao1 {
+        width: 130px;
+    }
+
+    div#parte2 > div#cartas > div#cartaB > a#botao2 {
+        position: absolute;
+        top: 655px;
+        left: 124px;
+    }
+
+    div#parte2 > div#cartas > div#cartaAB > a#botao3 {
+        position: absolute;
+        top: 766px;
+        left: 128px;
+        width: 130px;
+    }
+
+    div#parte4 {
+        height: 500px;
+        transform: translateY(1280px);
+    }
+
+    div#parte4 > div#texto {
+        transform: translate(750px, 100px);
+    }
+
+    div#parte4 > div#texto > img#app {
+        width: 450px;
+        transform: translate(-480px, -310px);
+    }
+
+    footer {
+        position: absolute;
+        top: 2622px;
+    }
+}

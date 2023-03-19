@@ -111,6 +111,7 @@ div#título {
     text-align: center;
     transform: translateY(-34px);
     text-shadow: 1px 1px 2px black;
+    width: 100px;
 }
 
 h4#t1 {
@@ -216,7 +217,7 @@ p#p2 {
 #carroemoto {
     width: 346px;
     height: 179px;
-    transform: translate(32px, 265px);
+    transform: translate(32px, 278px);
 }
 
 #valor3 {
@@ -231,7 +232,7 @@ p#p3 {
     width: 370px;
     text-align: center;
     font-size: 19px;
-    transform: translate(18px, 300px);
+    transform: translate(18px, 281px);
 }
 
 #botao3 {
@@ -370,7 +371,7 @@ article p {
 div#parte4 {
     background-color: var(--cor3);
     width: 100%;
-    height: 870px;
+    height: 865px;
 }
 
 #texto {
@@ -404,7 +405,7 @@ p#p5 {
 
 img#app {
     width: 365px;
-    transform: translate(12px, 80px);
+    transform: translate(54px, 80px);
 }
 
 /* Configurações do rodapé */
@@ -412,11 +413,12 @@ img#app {
 footer {
     background-color: black;
     width: 100%;
-    height: 149px;
+    height: 247px;
     color: white;
     display: flex;
     padding-top: 20px;
-    margin-top: -115px;
+    margin-top: -213px;
+    transform: translateY(210px);
 }
 
 div#pt1 {
