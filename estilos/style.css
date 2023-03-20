@@ -292,7 +292,7 @@ div#parte4 {
     background-color: var(--cor3);
     width: 100%;
     height: 865px;
-    transform: translateY(700px)
+    transform: translateY(50px)
 }
 
 #texto {
@@ -339,7 +339,7 @@ footer {
     display: flex;
     padding-top: 20px;
     margin-top: -213px;
-    transform: translateY(910px);
+    transform: translateY(261px);
 }
 
 div#pt1 {
