@@ -282,14 +282,14 @@ img.foto {
 }
 
 img#foto1 {
-    transform: translate(72px, -175px);
+    transform: translate(70px, -175px);
 }
 
 div#box1 {
     width: 200px;
     height: 100px;
     background-color: var(--cor1);
-    transform: translate(25px, 100px);
+    transform: translate(23px, 100px);
 }
 
 span#nome1 {
@@ -306,7 +306,7 @@ p#p5 {
 }
 
 div#estrela1 {
-    transform: translate(34px, 11px);
+    transform: translate(36px, 11px);
 }
 
 div.estrela > ul {
