@@ -332,10 +332,12 @@ span#nome2 {
 
 div#estrela {
     transform: translate(-26px, 83px);
+    width: 175px;
 }
 
 div#estrela2 {
     transform: translate(17px, 483px);
+    width: 175px;
 }
 
 div.estrela > ul {
@@ -377,7 +379,7 @@ div#parte4 {
     background-color: var(--cor3);
     width: 100%;
     height: 865px;
-    transform: translateY(800px)
+    transform: translateY(1190px)
 }
 
 #texto {
@@ -424,7 +426,7 @@ footer {
     display: flex;
     padding-top: 20px;
     margin-top: -213px;
-    transform: translateY(1000px);
+    transform: translateY(1400px);
 }
 
 div#pt1 {
