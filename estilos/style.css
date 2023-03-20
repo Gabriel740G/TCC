@@ -277,7 +277,7 @@ p#p4 {
 div#dp {
     position: absolute;
     top: 10px;
-    left: 100px;
+    left: 134px;
 } 
 
 img#foto1 {
@@ -303,7 +303,7 @@ span#nome1 {
 }
 
 div#estrela {
-    transform: translate(-23px, 83px);
+    transform: translate(-26px, 83px);
 }
 
 div.estrela > ul {
@@ -319,7 +319,7 @@ p#p5 {
     width: 300px;
     text-align: center;
     margin-top: 12px;
-    transform: translate(-80px, 74px);
+    transform: translate(-88px, 74px);
 }
 
 @media screen and (max-width: 700px) {
