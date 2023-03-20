@@ -280,12 +280,26 @@ div#dp {
     left: 134px;
 } 
 
+div#dp2 {
+    position: absolute;
+    top: 3px;
+    left: 91px;
+}
+
 img#foto1 {
     width: 105px;
     height: 100px;
     border-radius: 50%;
     border: 2px solid var(--cor1);
     transform: translate(7px, 34px);
+}
+
+img#foto2 {
+    width: 105px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--cor1);
+    transform: translate(49px, 419px);
 }
 
 #box1 {
@@ -295,7 +309,21 @@ img#foto1 {
     transform: translate(-37px, 177px);
 }
 
+#box2 {
+    background-color: var(--cor1);
+    width: 198px;
+    height: 85px;
+    transform: translate(7px, 558px);
+}
+
 span#nome1 {
+    position: absolute;
+    top: 57px;
+    left: 42px;
+    color: var(--cor4);
+}
+
+span#nome2 {
     position: absolute;
     top: 57px;
     left: 42px;
@@ -304,6 +332,10 @@ span#nome1 {
 
 div#estrela {
     transform: translate(-26px, 83px);
+}
+
+div#estrela2 {
+    transform: translate(17px, 483px);
 }
 
 div.estrela > ul {
@@ -320,6 +352,12 @@ p#p5 {
     text-align: center;
     margin-top: 12px;
     transform: translate(-88px, 74px);
+}
+
+p#p6 {
+    width: 300px;
+    text-align: center;
+    transform: translate(-43px, 470px);
 }
 
 @media screen and (max-width: 700px) {
@@ -339,7 +377,7 @@ div#parte4 {
     background-color: var(--cor3);
     width: 100%;
     height: 865px;
-    transform: translateY(390px)
+    transform: translateY(800px)
 }
 
 #texto {
@@ -354,7 +392,7 @@ h1#t6 {
     transform: translate(88px, 41px);
 }
 
-p#p6 {
+p#p8 {
     width: 275px;
     text-align: center;
     font-weight: bold;
@@ -386,7 +424,7 @@ footer {
     display: flex;
     padding-top: 20px;
     margin-top: -213px;
-    transform: translateY(600px);
+    transform: translateY(1000px);
 }
 
 div#pt1 {
