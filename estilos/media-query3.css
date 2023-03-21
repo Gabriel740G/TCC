@@ -21,7 +21,7 @@
         width: 161px;
     }
 
-    input {
+    form > input[type=text], input[type=password] {
         padding: 20px;
         width: 400px;
         height: 5px;
@@ -37,11 +37,13 @@
 
     #ipass {
         font-size: 18px;
+        transform: translateX(48px);
     }
 
-    button#entrar { 
-        transform: translateY(263px);
+    #entrar { 
+        transform: translate(-230px, 120px);
         padding: 13px;
         font-size: 17px;
+        width: 91px;
     }
 }

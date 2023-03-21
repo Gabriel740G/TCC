@@ -14,8 +14,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: var(--cor1);
 }
 
 /* Configurações da Navbar */
@@ -60,15 +58,6 @@ body {
     color: var(--cor2);
 }
 
-#login {
-    background-color: var(--cor4);
-    width: 114px;
-    color: black;
-    text-align: center;
-    border-radius: 22px;
-    padding: 2px;
-}
-
 .btn_icon_header {
     background-color: transparent;
     border: none;
@@ -101,79 +90,94 @@ body {
 
 /* Configurações de div */
 
-div#q1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--cor4);
-    width: 420px;
-    height: 400px;
-}
-
-div#q2 {
-    background-color: var(--cor3);
-    height: 260px;
-    width: 341px;
+div.quadrado {
+    background-color: var(--cor1);
+    height: 435px;
+    width: 1000px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/* Configurações do Título */
+/* Configurações do formulário */
 
-h3 {
-    background-color: var(--cor3);
-    width: 180px;
+div#bloco1 {
+    transform: translate(128px, 67px);
+    width: 228px;
+}
+
+div#bloco2 {
+    transform: translate(607px, -241px);
+    width: 240px;
+}
+
+form > div#bloco1 > input[type=text], input[type=email], input[type=date], input[type=tel]{
+    border-radius: 13px;
+    border: none;
     padding: 4px;
-    transform: translate(143px, -48px);
 }
 
-/* Configurações de Formulário */
+form > div#bloco2 > input[type=text], input[type=number]{
+    border-radius: 13px;
+    border: none;
+    padding: 4px;
+}
 
-form {
-    transform: translateY(70px);
+#inome {
+    width: 260px;
+}
+
+#iend {
+    width: 260px;
+}
+
+#iemail {
+    width: 260px;
+}
+
+#opcao1 {
+    text-decoration: none;
+    color: var(--cor4);
+    background-color: var(--cor2);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 302px;
+}
+
+#opcao2 {
+    text-decoration: none;
+    color: var(--cor2);
+    background-color: var(--cor4);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 546px;
+}
+
+form > input[type=submit] {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    border: none;
+    cursor: pointer;
+    transform: translate(446px, -146px);
+    padding: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.esp {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 label {
     color: var(--cor2);
     font-weight: bold;
-}
-
-input {
-    padding: 7px;
-    width: 215px;
-    border: none;
-}
-
-#iuser {
-    margin-bottom: 28px;
-    text-align: center;
-}
-
-#ipass {
-    text-align: center;
-    transform: translateX(42px);
-}
-
-#entrar {
-    transform: translate(-115px, 109px);
-    background-color: var(--cor1);
-    color: var(--cor2);
-    font-weight: bolder;
-    padding: 12px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    width: 78px;
-    height: 44px;
-}
-
-/* Configurações de Imagem */
-
-img#car {
-    height: 66px;
-    width: 100px;
-    transform: translate(-141px, 2px);
 }
