@@ -322,6 +322,62 @@ div.estrela > ul > li {
     padding-left: 4px;
 }
 
+img#foto2 {
+    transform: translate(70px, -177px);
+}
+
+div#box2 {
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor1);
+    transform: translate(23px, 95px);
+}
+
+span#nome2 {
+    position: absolute;
+    top: 74px;
+    left: 45px;
+    color: var(--cor4);
+}
+
+p#p6 {
+    width: 250px;
+    text-align: center;
+    transform: translate(-2px, 114px);
+}
+
+div#estrela2 {
+    transform: translate(36px, 15px);
+}
+
+img#foto3 {
+    transform: translate(70px, -193px);
+}
+
+div#box3 {
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor1);
+    transform: translate(23px, 94px);
+}
+
+span#nome3 {
+    position: absolute;
+    top: 74px;
+    left: 39px;
+    color: var(--cor4);
+}
+
+p#p7 {
+    width: 250px;
+    text-align: center;
+    transform: translate(-2px, 113px);
+}
+
+div#estrela3 {
+    transform: translate(36px, 14px);
+}
+
 @media screen and (max-width: 700px) {
     #container {
         height: auto;
