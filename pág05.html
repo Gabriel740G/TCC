@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style4.css">
+    <link rel="stylesheet" href="estilos/style5.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
     <title>Auto Moto Escola Barueri</title>
 </head>
@@ -61,12 +61,23 @@
                 <div id="bloco2">
                     <label for="iend">ENDEREÇO:</label><br>
                     <input type="text" name="end" id="iend" class="esp" required><br>
-                    <label for="iuser">CRIE UM NOME DE USUÁRIO:</label><br>
-                    <input type="text" name="user" id="iuser" class="esp" required><br>
-                    <label for="ipass">CRIE UMA SENHA:</label><br>
-                    <input type="text" name="pass" id="ipass" class="esp" required><br>
-                    <label for="irm">CRIE UM RM AO ALUNO:</label><br>
-                    <input type="number" name="RM" id="irm" class="esp" required><br>
+                    <label for="icarg">CARGO:</label><br>
+                    <div id="bloco3">
+                        <input type="radio" id="aten" name="cargo" value="Atendente" checked>
+                        <label for="aten" class="ca">Atendente</label><br>
+                        <input type="radio" id="ins" name="cargo" value="Instrutor">
+                        <label for="ins" class="ca">Instrutor</label><br>
+                        <input type="radio" id="adm" name="cargo" value="ADM">
+                        <label for="adm" class="ca">ADM</label><br>
+                    </div>
+                    <div id="bloco4">
+                        <label for="iuser" id="iuser">CRIE UM NOME DE USUÁRIO:</label><br>
+                        <input type="text" name="user" class="esp" required><br>
+                        <label for="ipass">CRIE UMA SENHA:</label><br>
+                        <input type="text" name="pass" id="ipass" class="esp" required><br>
+                        <label for="irm">CRIE UM RM AO FUNCIONÁRIO:</label><br>
+                        <input type="number" name="RM" id="irm" class="esp" required><br>
+                    </div>
                 </div>
                 <input type="submit" value="CADASTRAR">
             </form>

@@ -113,7 +113,7 @@ div#bloco1 {
 
 div#bloco2 {
     transform: translate(607px, -241px);
-    width: 240px;
+    width: 275px;
 }
 
 form > div#bloco1 > input[type=text], input[type=email], input[type=date], input[type=tel]{
@@ -123,6 +123,12 @@ form > div#bloco1 > input[type=text], input[type=email], input[type=date], input
 }
 
 form > div#bloco2 > input[type=text], input[type=number]{
+    border-radius: 13px;
+    border: none;
+    padding: 4px;
+}
+
+form > div#bloco2 > div#bloco4 > input[type=text], input[type=number]{
     border-radius: 13px;
     border: none;
     padding: 4px;
@@ -142,8 +148,8 @@ form > div#bloco2 > input[type=text], input[type=number]{
 
 #opcao1 {
     text-decoration: none;
-    color: var(--cor4);
-    background-color: var(--cor2);
+    color: var(--cor2);
+    background-color: var(--cor4);
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -154,8 +160,8 @@ form > div#bloco2 > input[type=text], input[type=number]{
 
 #opcao2 {
     text-decoration: none;
-    color: var(--cor2);
-    background-color: var(--cor4);
+    color: var(--cor4);
+    background-color: var(--cor2);
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -169,7 +175,7 @@ form > input[type=submit] {
     color: var(--cor4);
     border: none;
     cursor: pointer;
-    transform: translate(446px, -146px);
+    transform: translate(436px, -252px);
     padding: 16px;
     border-radius: 20px;
     font-weight: bold;
@@ -184,4 +190,33 @@ form > input[type=submit] {
 label {
     color: var(--cor2);
     font-weight: normal;
+    cursor: pointer;
 }
+
+.ca {
+    color: black;
+    background-color: var(--cor4);
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+div#bloco3 {
+    transform: translate(-1px, 13px);
+}
+
+div#bloco4 {
+    transform: translateY(38px);
+}
+
+#aten {
+    margin-bottom: 19px;
+}
+
+#ins {
+    margin-bottom: 19px;
+}
+
+
+

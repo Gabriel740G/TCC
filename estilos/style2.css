@@ -97,6 +97,10 @@ body {
     top {margin-left: -10vw;}
 }
 
+#active {
+    color: var(--cor2);
+}
+
 /* Configurações dos Textos */
 
 h2 {
