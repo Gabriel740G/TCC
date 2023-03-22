@@ -96,10 +96,10 @@ body {
 
 div.quadrado {
     background-color: var(--cor1);
-    height: 435px;
+    height: 476px;
     width: 1000px;
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -175,7 +175,7 @@ form > input[type=submit] {
     color: var(--cor4);
     border: none;
     cursor: pointer;
-    transform: translate(436px, -252px);
+    transform: translate(430px, -211px);
     padding: 16px;
     border-radius: 20px;
     font-weight: bold;
