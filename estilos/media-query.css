@@ -68,9 +68,54 @@
         width: 130px;
     }
 
+    div#parte3 > div#container > div#dep {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    img#foto1 {
+        position: absolute;
+        top: 442px;
+        left: 235px;
+    }
+
+    div#box1 {
+        position: absolute;
+        top: 221px;
+        left: 238px;
+    }
+
+    p#p5 {
+        position: absolute;
+        top: 323px;
+        left: 238px;
+    }
+
+    div#estrela1 {
+        position: absolute;
+        top: 556px;
+        left: 238px;
+    }
+
+    img#foto2 {
+        position: absolute;
+        top: 442px;
+        left: 561px;
+    }
+
+    div#box2 {
+        position: absolute;
+        top: 221px;
+        left: 400px;
+    }
+
     div#parte4 {
         height: 500px;
-        transform: translateY(1280px);
+        position: absolute;
+        top: 2100px;
     }
 
     div#parte4 > div#texto {
@@ -84,6 +129,6 @@
 
     footer {
         position: absolute;
-        top: 2622px;
+        top: 2900px;
     }
 }
