@@ -286,14 +286,14 @@ img.foto {
 }
 
 img#foto1 {
-    transform: translate(70px, -175px);
+    transform: translate(84px, -175px);
 }
 
 div#box1 {
     width: 200px;
     height: 100px;
     background-color: var(--cor1);
-    transform: translate(23px, 100px);
+    transform: translate(37px, 100px);
 }
 
 span#nome1 {
@@ -306,11 +306,11 @@ span#nome1 {
 p#p5 {
     width: 250px;
     text-align: center;
-    transform: translate(-2px, 111px);
+    transform: translate(12px, 111px);
 }
 
 div#estrela1 {
-    transform: translate(36px, 11px);
+    transform: translate(46px, 11px);
 }
 
 div.estrela > ul {
@@ -323,14 +323,14 @@ div.estrela > ul > li {
 }
 
 img#foto2 {
-    transform: translate(70px, -177px);
+    transform: translate(84px, -177px);
 }
 
 div#box2 {
     width: 200px;
     height: 100px;
     background-color: var(--cor1);
-    transform: translate(23px, 95px);
+    transform: translate(37px, 95px);
 }
 
 span#nome2 {
@@ -343,11 +343,11 @@ span#nome2 {
 p#p6 {
     width: 250px;
     text-align: center;
-    transform: translate(-2px, 114px);
+    transform: translate(12px, 114px);
 }
 
 div#estrela2 {
-    transform: translate(36px, 15px);
+    transform: translate(46px, 15px);
 }
 
 img#foto3 {
@@ -358,7 +358,7 @@ div#box3 {
     width: 200px;
     height: 100px;
     background-color: var(--cor1);
-    transform: translate(23px, 94px);
+    transform: translate(37px, 94px);
 }
 
 span#nome3 {
@@ -375,7 +375,7 @@ p#p7 {
 }
 
 div#estrela3 {
-    transform: translate(36px, 14px);
+    transform: translate(46px, 14px);
 }
 
 @media screen and (max-width: 700px) {
