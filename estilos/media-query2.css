@@ -3,15 +3,15 @@
 @media screen and (min-width: 768px) {
     
     main > h2 {
-        transform: translate(330px, 20px);
+        transform: translate(348px, 57px);
     }
 
     main > div#texto {
-        transform: translate(250px, 22px);
+        transform: translate(269px, 66px);
     }
 
     main > div#texto2 {
-        transform: translate(700px, -564px);
+        transform: translate(700px, -531px);
     }
 
     footer {
