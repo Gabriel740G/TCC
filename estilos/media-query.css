@@ -74,6 +74,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+        transform: translate(-683px, -360px);
     }
 
     img#foto1 {
@@ -126,7 +127,7 @@
 
     img#foto3 {
         position: absolute;
-        top: 466px;
+        top: 449px;
         left: 876px;
     }
 
