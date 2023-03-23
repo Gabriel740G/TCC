@@ -102,20 +102,64 @@
 
     img#foto2 {
         position: absolute;
-        top: 442px;
+        top: 449px;
         left: 561px;
     }
 
     div#box2 {
         position: absolute;
-        top: 221px;
-        left: 400px;
+        top: 226px;
+        left: 563px;
+    }
+
+    p#p6 {
+        position: absolute;
+        top: 321px;
+        left: 569px;
+    }
+
+    div#estrela2 {
+        position: absolute;
+        top: 552px;
+        left: 564px;
+    }
+
+    img#foto3 {
+        position: absolute;
+        top: 466px;
+        left: 876px;
+    }
+
+    div#box3 {
+        position: absolute;
+        top: 227px;
+        left: 875px;
+    }
+
+    p#p7 {
+        position: absolute;
+        top: 321px;
+        left: 861px;
+        width: 281px;
+    }
+
+    div#estrela3 {
+        position: absolute;
+        top: 553px;
+        left: 876px;
+    }
+
+    h1#t5 {
+        transform: translateY(-151px);
+    }
+
+    p#p4 {
+        transform: translateY(-151px);
     }
 
     div#parte4 {
-        height: 500px;
         position: absolute;
-        top: 2100px;
+        top: 1941px;
     }
 
     div#parte4 > div#texto {
@@ -129,6 +173,7 @@
 
     footer {
         position: absolute;
-        top: 2900px;
+        top: 2802px;
     }
+
 }
