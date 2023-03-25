@@ -67,6 +67,7 @@ body {
     text-align: center;
     border-radius: 22px;
     padding: 2px;
+    color: var(--cor2);
 }
 
 .btn_icon_header {
