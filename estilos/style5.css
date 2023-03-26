@@ -96,8 +96,8 @@ body {
 
 div.quadrado {
     background-color: var(--cor1);
-    height: 476px;
-    width: 1000px;
+    height: 73%;
+    width: 76%;
     position: absolute;
     top: 53%;
     left: 50%;
