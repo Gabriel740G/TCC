@@ -125,24 +125,23 @@ div#quadrado {
 }
 
 #alunos {
-    transform: translate(-87px, -10px);
-    background: var(--cor2);
-    color: var(--cor4);
+    transform: translate(-93px, -10px);
+    background: var(--cor4);
+    color: var(--cor2);
     padding: 10px;
     border-radius: 20px;
-    z-index: 2;
-    width: 108px;
-    text-align: center;
+    width: 115px;
+    text-align: left;
 }
 
 #funcionario {
-    color: var(--cor2);
-    background-color: var(--cor4);
+    color: var(--cor4);
+    background-color: var(--cor2);
     padding: 10px;
     border-radius: 20px;
     transform: translate(-15px, -10px);
     width: 157px;
-    text-align: end;
+    text-align: center;
 }
 
 #switch {
