@@ -97,8 +97,8 @@
 
     div#estrela1 {
         position: absolute;
-        top: 556px;
-        left: 238px;
+        top: 525px;
+        left: 241px;
     }
 
     img#foto2 {
@@ -121,8 +121,8 @@
 
     div#estrela2 {
         position: absolute;
-        top: 552px;
-        left: 564px;
+        top: 522px;
+        left: 565px;
     }
 
     img#foto3 {
@@ -146,8 +146,8 @@
 
     div#estrela3 {
         position: absolute;
-        top: 553px;
-        left: 877px;
+        top: 521px;
+        left: 879px;
     }
 
     h1#t5 {
@@ -176,5 +176,4 @@
         position: absolute;
         top: 2802px;
     }
-
 }
