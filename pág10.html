@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style5.css">
+    <link rel="stylesheet" href="estilos/style10.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
     <title>Auto Moto Escola Barueri</title>
 </head>
@@ -24,10 +24,10 @@
                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                   </svg>
             </button>
-            <a href="pág04.html" id="active">Cadastro</a>
+            <a href="pág04.html">Cadastro</a>
             <a href="pág06.html">Registrados</a>
             <a href="pág08.html">Veículos</a>
-            <a href="pág10.html">Cartas</a>
+            <a href="pág10.html" id="active">Cartas</a>
             <a href="#">Pagamentos</a>
             <a href="#">Calendário</a>
             <a href="#">Agenda</a>
@@ -40,47 +40,38 @@
         </div>
     </div>
     <main>
-        <div class="quadrado">
-            <a href="pág04.html" id="opcao1">Cadastrar Aluno</a>
-            <a href="pág05.html" id="opcao2">Cadastrar Funcionário</a>
-            <form action="config.php" method="post">
-                <div id="bloco1">
-                    <label for="inome">NOME:</label><br>
-                    <input type="text" name="nome" id="inome" class="esp" required minlength="8" maxlength="40"><br>
-                    <label for="icpf">CPF:</label><br>
-                    <input type="text" name="CPF" id="icpf" class="esp" required placeholder="000.000.000-00"><br>
-                    <label for="inasc">DATA DE NASCIMENTO:</label><br>
-                    <input type="date" name="data_nasc" id="inasc" class="esp" required><br>
-                    <label for="irg">RG:</label><br>
-                    <input type="text" name="RG" id="irg" class="esp" required placeholder="000.000.000-0"><br>
-                    <label for="itel">TELEFONE:</label><br>
-                    <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx" class="esp"><br>
-                    <label for="iemail">EMAIL:</label><br>
-                    <input type="email" name="email" id="iemail" class="esp" required><br>
-                </div>
-                <div id="bloco2">
-                    <label for="iend">ENDEREÇO:</label><br>
-                    <input type="text" name="end" id="iend" class="esp" required><br>
-                    <label for="icarg">CARGO:</label><br>
-                    <div id="bloco3">
-                        <input type="radio" id="aten" name="cargo" value="Atendente" checked>
-                        <label for="aten" class="ca">Atendente</label><br>
-                        <input type="radio" id="ins" name="cargo" value="Instrutor">
-                        <label for="ins" class="ca">Instrutor</label><br>
-                        <input type="radio" id="adm" name="cargo" value="ADM">
-                        <label for="adm" class="ca">ADM</label><br>
-                    </div>
-                    <div id="bloco4">
-                        <label for="iuser" id="iuser">CRIE UM NOME DE USUÁRIO:</label><br>
-                        <input type="text" name="user" class="esp" required><br>
-                        <label for="ipass">CRIE UMA SENHA:</label><br>
-                        <input type="text" name="pass" id="ipass" class="esp" required><br>
-                        <label for="irm">CRIE UM RM AO FUNCIONÁRIO:</label><br>
-                        <input type="number" name="RM" id="irm" class="esp" required><br>
-                    </div>
-                </div>
-                <input type="submit" value="CADASTRAR">
-            </form>
+        <div id="quadrado">
+            <h1 id="titulo">Controle de cartas:</h1>
+            <div id="r1">
+                <h2 id="sub1">CARTA <br>A</h2>
+                <h3 id="text1">Valor anterior:</h3>
+                <h4 id="subtext1">1.500 R$</h4>
+                <h3 id="text2">Valor à alterar:</h3>
+                <form action="">
+                    <input type="text" name="valor" id="valor" required>
+                    <input type="submit" value="Alterar" id="bt1">
+                </form>
+            </div>
+            <div id="r2">
+                <h2 id="sub2">CARTA <br>B</h2>
+                <h3 id="text3">Valor anterior:</h3>
+                <h4 id="subtext2">1.700 R$</h4>
+                <h3 id="text4">Valor à alterar:</h3>
+                <form action="">
+                    <input type="text" name="valor" id="valor2" required>
+                    <input type="submit" value="Alterar" id="bt2">
+                </form>
+            </div>
+            <div id="r3">
+                <h2 id="sub3">CARTA <br>A+B</h2>
+                <h3 id="text5">Valor anterior:</h3>
+                <h4 id="subtext3">2.500 R$</h4>
+                <h3 id="text6">Valor à alterar:</h3>
+                <form action="">
+                    <input type="text" name="valor" id="valor3" required>
+                    <input type="submit" value="Alterar" id="bt3">
+                </form>
+            </div>
         </div>
     </main>
 </body>
@@ -88,7 +79,6 @@
     var header = document.getElementById('header');
     var navigationHeader = document.getElementById('navigation_header');
     var showSidebar = false;
-
 
     function toggleSidebar() {
         showSidebar = !showSidebar;
