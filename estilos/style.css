@@ -286,7 +286,7 @@ img.foto {
 }
 
 img#foto1 {
-    transform: translate(84px, -175px);
+    transform: translate(84px, -138px);
 }
 
 div#box1 {
@@ -306,11 +306,11 @@ span#nome1 {
 p#p5 {
     width: 267px;
     text-align: center;
-    transform: translate(12px, 111px);
+    transform: translate(7px, 111px);
 }
 
 div#estrela1 {
-    transform: translate(46px, 11px);
+    transform: translate(52px, 11px);
 }
 
 div.estrela > ul {
@@ -323,7 +323,7 @@ div.estrela > ul > li {
 }
 
 img#foto2 {
-    transform: translate(84px, -177px);
+    transform: translate(84px, -145px);
 }
 
 div#box2 {
@@ -343,15 +343,15 @@ span#nome2 {
 p#p6 {
     width: 250px;
     text-align: center;
-    transform: translate(12px, 114px);
+    transform: translate(16px, 114px);
 }
 
 div#estrela2 {
-    transform: translate(46px, 15px);
+    transform: translate(52px, 15px);
 }
 
 img#foto3 {
-    transform: translate(84px, -178px);
+    transform: translate(84px, -142px);
 }
 
 div#box3 {
@@ -371,11 +371,11 @@ span#nome3 {
 p#p7 {
     width: 281px;
     text-align: center;
-    transform: translate(-4px, 113px);
+    transform: translate(-1px, 113px);
 }
 
 div#estrela3 {
-    transform: translate(46px, 14px);
+    transform: translate(51px, 14px);
 }
 
 @media screen and (max-width: 700px) {
