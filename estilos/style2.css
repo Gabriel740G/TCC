@@ -104,8 +104,9 @@ body {
 /* Configurações dos Textos */
 
 h2 {
-    transform: translate(150px, 56px);
-    width: 128px;
+    transform: translate(59px, 56px);
+    width: 300px;
+    text-align: center;
 }
 
 p#p1 {
