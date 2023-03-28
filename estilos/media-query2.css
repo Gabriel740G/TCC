@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
     
     main > h2 {
-        transform: translate(358px, 57px);
+        transform: translate(240px, 57px);
     }
 
     main > div#texto {
@@ -11,7 +11,7 @@
     }
 
     main > div#texto2 {
-        transform: translate(706px, -441px);
+        transform: translate(706px, -399px);
     }
 
     footer {
