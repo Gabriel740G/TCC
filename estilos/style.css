@@ -414,7 +414,7 @@ p#p8 {
     width: 275px;
     text-align: center;
     font-weight: bold;
-    transform: translate(114px, 65px);
+    transform: translate(120px, 65px);
 }
 
 #bt {
@@ -424,12 +424,12 @@ p#p8 {
     padding: 10px;
     cursor: pointer;
     border-radius: 14px;
-    transform: translate(184px, 82px);
+    transform: translate(191px, 82px);
 }
 
 img#app {
     width: 365px;
-    transform: translate(70px, 80px);
+    transform: translate(77px, 80px);
 }
 
 /* Configurações do rodapé */
