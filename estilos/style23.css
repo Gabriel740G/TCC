@@ -106,7 +106,7 @@ body {
 div#quadrado {
     background-color: var(--cor1);
     width: 88%;
-    height: 81%;
+    height: 100%;
     position: absolute;
     top: 16%;
     left: 6%;
@@ -133,6 +133,7 @@ h2 {
     margin-top: 20px;
     font-size: 32px;
     text-transform: uppercase;
+    color: var(--cor4);
 }
 
 .btn-ant, .btn-pro {
@@ -181,6 +182,7 @@ table {
 
 .calendario tbody td{
     cursor: pointer;
+    color: var(--cor4);
 }
 
 .calendario tbody td:hover {
