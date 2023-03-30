@@ -105,125 +105,68 @@ body {
 
 div#quadrado {
     background-color: var(--cor1);
-    width: 88%;
-    height:658px;
+    width: 84%;
+    height: 77%;
     position: absolute;
-    top: 13%;
-    left: 6%;
+    top: 18%;
+    left: 8%;
 }
 
-/* Configurações Calendário */
+/* Configurações de formulário */
 
-.conteudo {
-    left: 50%;
-    margin: 0 0 0 -250px;
-    position: absolute;
-    width: 500px;
+div#bloco1 {
+    transform: translate(84%, 17%);
+    width: 300px;
 }
 
-.calendario {
-    text-align: center;
+div#bloco2 {
+    transform: translate(253%, -87%);
+    width: 250px;
 }
 
-.conteudo .calendario header {
-    position: relative;
-}
-
-h2 {
-    margin-top: 20px;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: var(--cor4);
-}
-
-.btn-ant, .btn-pro {
-    position: absolute;
-    top: 50%;
-    height: 32px;
-    width: 32px;
-    line-height: 32px;
-    margin-top: -16px;
-    border: 2px solid #cbd1d2;
-    border-radius: 50%;
-    color: #cbd1d2;
+form > div#bloco1 > [type=text], [type=tel] {
+    border-radius: 20px;
+    padding: 4px;
     font-size: 16px;
-    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.btn-ant {
-    left: 80px;
+form > div#bloco1 > [type=radio]{
+    margin-top: 11px;
+    margin-bottom: 6px;
 }
 
-.btn-pro {
-    right: 80px;
+form > div#bloco2 > [type=radio]{
+    margin-top: 9px;
+    margin-bottom: 7px;
 }
 
-.btn-ant:hover, .btn-pro:hover {
-    background: #cbd1d2;
+form > div#bloco2 > [type=text] {
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-table {
-    margin-top: 20px;
-    border-collapse: collapse;
+div#bloco3 {
+    transform: translateY(10px);
 }
 
-.calendario thead {
-    background: white;
-    font-weight: 600;
-    text-transform: uppercase;
+div#bloco3 > [type=radio]{
+    margin-bottom: 7px;
+    margin-top: 10px;
 }
 
-.calendario td {
-    border: 1px solid #cbd1d2;
-    height: 71.4px;
-    text-align: center;
-    width: 71.4px;
-}
-
-.calendario tbody td{
+label {
+    color: var(--cor2);
     cursor: pointer;
-    color: var(--cor4);
 }
 
-.calendario tbody td:hover {
-    background: rgba(0, 173, 223, 0.8);
-    color: #f9f9f9;
-}
-
-.calendario table .dia-atual {
-    background: #00addf;
-    color: #f9f9f9;
-}
-
-.calendario .mes-anterior, .calendario .proximo-mes {
-    color: #cbd1d2;
-}
-
-.calendario .mes-anterior, .calendario .proximo-mes:hover {
-    background: #98a0a0;
-}
-
-.event {
-    position: relative;
-}
-
-.event:after{
-    content: '';
-    width: 7px;
-    height: 7px;
-    left: 50%;
-    bottom: 7px;
-    margin: -3.5px 0 0 -3.5px;
-    background-color: #00addf;
-    display: block;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.event:hover::after{
-    background: #f9f9f9;
-}
-
-.event.dia-atual::after {
-    background: #f9f9f9;
+.color {
+    background-color: var(--cor4);
+    color: black;
+    padding: 5px;
+    text-align: center;
 }
