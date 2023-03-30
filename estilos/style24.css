@@ -115,12 +115,12 @@ div#quadrado {
 /* Configurações de formulário */
 
 div#bloco1 {
-    transform: translate(84%, 17%);
+    transform: translate(80%, 17%);
     width: 300px;
 }
 
 div#bloco2 {
-    transform: translate(253%, -87%);
+    transform: translate(261%, -87%);
     width: 250px;
 }
 
@@ -150,6 +150,47 @@ form > div#bloco2 > [type=text] {
     margin-bottom: 5px;
 }
 
+#cart1 {
+    text-align: center;
+    padding: 5px;
+    padding-left: 37px;
+    padding-right: 36px;
+    color: black;
+    background-color: var(--cor4);
+    border-radius: 15px;
+}
+
+#cart2 {
+    color: black;
+    background-color: var(--cor4);
+    padding: 5px;
+    padding-left: 37px;
+    padding-right: 36px;
+    border-radius: 15px;
+}
+
+#cart3 {
+    color: black;
+    background-color: var(--cor4);
+    padding: 5px;
+    padding-left: 27px;
+    padding-right: 26px;
+    border-radius: 15px;
+}
+
+#car1 {
+    color: black;
+    background-color: var(--cor4);
+    padding: 5px;
+}
+
+#car2 {
+    color: black;
+    background-color: var(--cor4);
+    padding: 5px;
+    padding-right: 23px;
+}
+
 div#bloco3 {
     transform: translateY(10px);
 }
@@ -169,4 +210,16 @@ label {
     color: black;
     padding: 5px;
     text-align: center;
+}
+
+#botao {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    border: none;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: translate(415%, -440%);
 }

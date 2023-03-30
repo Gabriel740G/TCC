@@ -106,6 +106,10 @@ div.quadrado {
 
 /* Configurações do formulário */
 
+form {
+    height: 460px;
+}
+
 div#bloco1 {
     transform: translate(128px, 67px);
     width: 228px;
