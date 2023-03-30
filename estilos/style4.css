@@ -99,9 +99,8 @@ div.quadrado {
     height: 70%;
     width: 74%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 14%;
 }
 
 /* Configurações do formulário */
