@@ -211,10 +211,11 @@ form {
 div#bloco1 {
     transform: translate(37%, 7%);
     width: 300px;
+    height: 523px;
 }
 
 div#bloco2 {
-    transform: translate(284%, -187%);
+    transform: translate(284%, -153%);
     width: 250px;
 }
 
@@ -326,5 +327,5 @@ label {
     font-weight: bold;
     border-radius: 30px;
     cursor: pointer;
-    transform: translate(432%, -900%);
+    transform: translate(432%, -697%);
 }
