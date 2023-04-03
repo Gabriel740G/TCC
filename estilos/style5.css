@@ -99,7 +99,7 @@ div.quadrado {
     height: 73%;
     width: 76%;
     position: absolute;
-    top: 53%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -222,5 +222,42 @@ div#bloco4 {
     margin-bottom: 19px;
 }
 
+/* Configurações do popup */
+
+.popup-wrapper {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: var(--cor4);
+    position: relative;
+}
+
+.popup a {
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: crimson;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
 
 
