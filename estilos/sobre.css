@@ -101,107 +101,91 @@ body {
     color: var(--cor2);
 }
 
-/* Configurações de div */
+/* Configurações dos Textos */
 
-div#quadrado {
-    background-color: var(--cor1);
-    width: 88%;
-    height: 81%;
-    position: absolute;
-    top: 16%;
-    left: 6%;
-}
-
-/* Configurações botões */
-
-a.botao {
-    background-color: var(--cor4);
-    color: var(--cor2);
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 24px;
+h2 {
+    transform: translate(20px, 56px);
+    width: 366px;
     text-align: center;
-    font-size: 20px;
-    cursor: pointer;
-    margin-right: 5px;
+    font-size: 18px;
 }
 
-#active2 {
-    background-color: var(--cor2);
-    color: var(--cor4);
-    padding-left: 30px;
-    padding-right: 29px;
+p#p1 {
+    width: 300px;
+    text-align: center;
 }
 
-div#bloco1 {
-    position: absolute;
-    top: 9%;
-    left: 12%;
+p#p2 {
+    width: 300px;
+    text-align: center;
 }
 
-div#bloco2 {
-    position: absolute;
-    top: 25%;
-    left: 11.8%;
+p#p3 {
+    width: 342px;
+    text-align: center;
+    transform: translate(40px, 91px);
 }
 
-#Janeiro {
-    padding-left: 37px;
-    padding-right: 43px;
+p#p4 {
+    width: 300px;
+    text-align: center;
+    transform: translate(56px, 114px);
 }
 
-#Fevereiro {
-    padding-left: 30px;
-    padding-right: 30px;
+div#texto {
+    width: 300px;
+    transform: translate(61px, 71px);
 }
 
-#Março {
-    padding-left: 46px;
-    padding-right: 43px;
+div#texto2 {
+    width: 400px;
 }
 
-#Abril {
-    padding-left: 53px;
-    padding-right: 55px;
+/* Configurações de Imagem */
+
+#img1 {
+    width: 300px;
+    height: 193px;
+    transform: translate(55px, 85px);
 }
 
-#Maio {
-    padding-left: 56px;
-    padding-right: 51px;
+#img2 {
+    width: 300px;
+    height: 193px;
+    transform: translate(55px, 104px);
 }
 
-#Junho {
-    padding-left: 47px;
-    padding-right: 49px;
+/* Configurações do rodapé */
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 247px;
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    margin-top: -213px;
+    transform: translateY(261px);
 }
 
-#Julho {
-    padding-left: 49px;
-    padding-right: 50px;
+div#pt1 {
+    margin-left: 13px;
 }
 
-#Agosto {
-    padding-left: 43px;
-    padding-right: 40px;
+div#pt2 {
+    margin-left: 44px;
 }
 
-#Setembro {
-    padding-left: 30px;
-    padding-right: 30px;
+#tel {
+    margin-bottom: 3px;
 }
 
-#Outubro {
-    padding-left: 36px;
-    padding-right: 35px;
+#number {
+    margin-bottom: 6px;
 }
 
-#Novembro {
-    padding-left: 30px;
-    padding-right: 30px;
+#time {
+    margin-bottom: 3px;
 }
 
-#Dezembro {
-    padding-left: 30px;
-    padding-right: 30px;
-}
 

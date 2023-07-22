@@ -3,19 +3,19 @@
 @media screen and (min-width: 768px) {
     
     main > h2 {
-        transform: translate(240px, 57px);
+        transform: translate(64%, 364%);
     }
 
     main > div#texto {
-        transform: translate(269px, 66px);
+        transform: translate(89%, 26%);
     }
 
     main > div#texto2 {
-        transform: translate(706px, -399px);
+        transform: translate(183%, -55%);
     }
 
     footer {
-        margin-top: -140px;
+        margin-top: -345px;
     }
     
 }

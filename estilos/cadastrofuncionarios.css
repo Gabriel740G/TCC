@@ -96,30 +96,27 @@ body {
 
 div.quadrado {
     background-color: var(--cor1);
-    height: 73%;
-    width: 76%;
+    width: 74%;
+    height: 72%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 14%;
 }
-
 /* Configurações do formulário */
 
-form {
-    height: 460px;
-}
-
 div#bloco1 {
-    transform: translate(128px, 67px);
     width: 228px;
+    position: absolute;
+    top: 16%;
+    left: 13%;
 }
 
 div#bloco2 {
-    transform: translate(607px, -241px);
-    width: 275px;
+    width: 240px;
+    position: absolute;
+    top: 16%;
+    left: 59%;
 }
-
 form > div#bloco1 > input[type=text], input[type=email], input[type=date], input[type=tel]{
     border-radius: 13px;
     border: none;
@@ -179,13 +176,14 @@ form > input[type=submit] {
     color: var(--cor4);
     border: none;
     cursor: pointer;
-    transform: translate(430px, -211px);
     padding: 16px;
     border-radius: 20px;
     font-weight: bold;
     font-size: 16px;
+    position: absolute;
+    top: 83%;
+    left: 43%;
 }
-
 .esp {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -212,6 +210,7 @@ div#bloco3 {
 
 div#bloco4 {
     transform: translateY(38px);
+    width: 300px;
 }
 
 #aten {

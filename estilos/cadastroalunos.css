@@ -58,15 +58,6 @@ body {
     color: var(--cor2);
 }
 
-#login {
-    background-color: var(--cor4);
-    width: 114px;
-    color: black;
-    text-align: center;
-    border-radius: 22px;
-    padding: 2px;
-}
-
 .btn_icon_header {
     background-color: transparent;
     border: none;
@@ -103,105 +94,100 @@ body {
 
 /* Configurações de div */
 
-div#quadrado {
+div.quadrado {
     background-color: var(--cor1);
-    width: 88%;
-    height: 81%;
+    width: 74%;
+    height: 72%;
     position: absolute;
-    top: 16%;
-    left: 6%;
+    top: 20%;
+    left: 14%;
 }
 
-/* Configurações botões */
-
-a.botao {
-    background-color: var(--cor4);
-    color: var(--cor2);
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 24px;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;
-    margin-right: 5px;
-}
-
-#active2 {
-    background-color: var(--cor2);
-    color: var(--cor4);
-    padding-left: 37px;
-    padding-right: 36px;
-}
+/* Configurações do formulário */
 
 div#bloco1 {
+    width: 228px;
     position: absolute;
-    top: 9%;
-    left: 12%;
+    top: 16%;
+    left: 13%;
 }
 
 div#bloco2 {
+    width: 240px;
     position: absolute;
-    top: 25%;
-    left: 11.8%;
+    top: 16%;
+    left: 59%;
 }
 
-#Janeiro {
-    padding-left: 37px;
-    padding-right: 43px;
+form > div#bloco1 > input[type=text], input[type=email], input[type=date], input[type=tel]{
+    border-radius: 13px;
+    border: none;
+    padding: 4px;
 }
 
-#Fevereiro {
-    padding-left: 30px;
-    padding-right: 30px;
+form > div#bloco2 > input[type=text], input[type=number]{
+    border-radius: 13px;
+    border: none;
+    padding: 4px;
 }
 
-#Março {
-    padding-left: 46px;
-    padding-right: 43px;
+#inome {
+    width: 260px;
 }
 
-#Abril {
-    padding-left: 53px;
-    padding-right: 55px;
+#iend {
+    width: 260px;
 }
 
-#Maio {
-    padding-left: 56px;
-    padding-right: 51px;
+#iemail {
+    width: 260px;
 }
 
-#Junho {
-    padding-left: 47px;
-    padding-right: 49px;
+#opcao1 {
+    text-decoration: none;
+    color: var(--cor4);
+    background-color: var(--cor2);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 302px;
 }
 
-#Julho {
-    padding-left: 49px;
-    padding-right: 50px;
+#opcao2 {
+    text-decoration: none;
+    color: var(--cor2);
+    background-color: var(--cor4);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 546px;
 }
 
-#Agosto {
-    padding-left: 43px;
-    padding-right: 40px;
+form > input[type=submit] {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    top: 83%;
+    left: 44%;
 }
 
-#Setembro {
-    padding-left: 30px;
-    padding-right: 30px;
+.esp {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#Outubro {
-    padding-left: 36px;
-    padding-right: 35px;
-}
-
-#Novembro {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#Dezembro {
-    padding-left: 30px;
-    padding-right: 30px;
+label {
+    color: var(--cor2);
+    font-weight: normal;
 }
 

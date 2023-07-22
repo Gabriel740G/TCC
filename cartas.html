@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style22.css">
+    <link rel="stylesheet" href="estilos/cartas.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
     <title>Auto Moto Escola Barueri</title>
 </head>
@@ -24,13 +24,13 @@
                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                   </svg>
             </button>
-            <a href="pág04.html">Cadastro</a>
-            <a href="pág06.html">Registrados</a>
-            <a href="pág08.html">Veículos</a>
-            <a href="pág10.html">Cartas</a>
-            <a href="pág11.html" id="active">Pagamentos</a>
-            <a href="pág23.html">Calendário</a>
-            <a href="pág24.html">Agenda</a>
+            <a href="cadastroalunos.html">Cadastro</a>
+            <a href="registroalunos.html">Registrados</a>
+            <a href="registrocarros.html">Veículos</a>
+            <a href="cartas.html" id="active">Cartas</a>
+            <a href="registropagamentos.html">Pagamentos</a>
+            <a href="calendarioaulas.html">Calendário</a>
+            <a href="agendamento.html">Agenda</a>
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
@@ -41,54 +41,39 @@
     </div>
     <main>
         <div id="quadrado">
-            <div id="bloco1">
-                <a href="pág11.html" class="botao" id="Janeiro">Janeiro</a>
-                <a href="pág12.html" class="botao" id="Fevereiro">Fevereiro</a>
-                <a href="pág13.html" class="botao" id="Março">Março</a>
-                <a href="pág14.html" class="botao" id="Abril">Abril</a>
-                <a href="pág15.html" class="botao" id="Maio">Maio</a>
-                <a href="pág16.html" class="botao" id="Junho">Junho</a><br>
+            <h1 id="titulo">Controle de cartas:</h1>
+            <div id="r1">
+                <h2 id="sub1">CARTA <br>A</h2>
+                <h3 id="text1">Valor anterior:</h3>
+                <h4 id="subtext1">1.500 R$</h4>
+                <h3 id="text2">Valor à alterar:</h3>
+                <form action="">
+                    <input type="text" name="valor" id="valor" required>
+                    <input type="submit" value="Alterar" id="bt1" onclick="Alterar1()">
+                </form>
             </div>
-            <div id="bloco2">
-                <a href="pág17.html" class="botao" id="Julho">Julho</a>
-                <a href="pág18.html" class="botao" id="Agosto">Agosto</a>
-                <a href="pág19.html" class="botao" id="Setembro">Setembro</a>
-                <a href="pág20.html" class="botao" id="Outubro">Outubro</a>
-                <a href="pág21.html" class="botao" id="Novembro">Novembro</a>
-                <a href="pág22.html" class="botao" id="active2" id="Dezembro">Dezembro</a>
+            <div id="r2">
+                <h2 id="sub2">CARTA <br>B</h2>
+                <h3 id="text3">Valor anterior:</h3>
+                <h4 id="subtext2">1.700 R$</h4>
+                <h3 id="text4">Valor à alterar:</h3>
+                <form action="">
+                    <input type="text" name="valor" id="valor2" required>
+                    <input type="submit" value="Alterar" id="bt2" onclick="Alterar2()">
+                </form>
+            </div>
+            <div id="r3">
+                <h2 id="sub3">CARTA <br>A+B</h2>
+                <h3 id="text5">Valor anterior:</h3>
+                <h4 id="subtext3">2.500 R$</h4>
+                <h3 id="text6">Valor à alterar:</h3>
+                <form action="">
+                    <input type="text" name="valor" id="valor3" required>
+                    <input type="submit" value="Alterar" id="bt3" onclick="Alterar3()">
+                </form>
             </div>
         </div>
     </main>
 </body>
-<script>
-    var header = document.getElementById('header');
-    var navigationHeader = document.getElementById('navigation_header');
-    var showSidebar = false;
-
-
-    function toggleSidebar() {
-        showSidebar = !showSidebar;
-        if(showSidebar) {
-            navigation_header.style.marginLeft = '-10vw';
-            navigation_header.style.animationName = 'showSidebar'
-            content.style.filter = 'blur(2)';
-        } else {
-            navigation_header.style.marginLeft = '-100vw'
-            navigation_header.style.animationName = ''
-            content.style.filter = '';
-        }
-    }
-
-    function closeSidebar() {
-        if(showSidebar) {
-            toogleSidebar();
-        }
-    }
-
-    window.addEventListener('resize', function(event) {
-        if(window.innerWidth > 768 && showSidebar){
-            toogleSidebar();
-        }
-    });
-</script>
+<script src="JS/pág10.js"></script>
 </html>

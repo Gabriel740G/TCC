@@ -394,13 +394,13 @@ div#estrela3 {
 div#parte4 {
     background-color: var(--cor3);
     width: 100%;
-    height: 865px;
+    height: 128%;
     transform: translateY(50px)
 }
 
 #texto {
-    transform: translateX(-44px);
     width: 400px;
+    transform: translate(-9%, -213%);
 }
 
 h1#t6 {
@@ -429,7 +429,7 @@ p#p8 {
 
 img#app {
     width: 365px;
-    transform: translate(70px, 80px);
+    transform: translate(8%, 69%);
 }
 
 /* Configurações do rodapé */
@@ -442,7 +442,7 @@ footer {
     display: flex;
     padding-top: 20px;
     margin-top: -213px;
-    transform: translateY(261px);
+    transform: translateY(148%);
 }
 
 div#pt1 {

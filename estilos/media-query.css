@@ -2,53 +2,53 @@
 
 @media screen and (min-width: 768px) {
     main > img#fundo {
-        height: 80vh;
+        height: 84vh;
     }
 
     main > div#título {
         position: absolute;
-        top: 515px;
-        left: 180px;
+        top: 79%;
+        left: 14%;
     }
 
     main > div#título > h2#t3 {
         position: absolute;
-        bottom: -127px;
-        left: 270px;
+        top: 186%;
+        left: 280%;
     }
 
     main > div#parte2 {
         position: absolute;
-        top: 738px;
+        top: 117%;
         height: 737px;
     }
 
     main > div#parte3 {
         position: absolute;
-        top: 1405px;
+        top: 217%;
     }
 
     div#parte2 > div#cartas > h1#t4 {
         position: absolute;
-        left: 448px;
+        left: 35%;
     }
 
     div#parte2 > div#cartas > div#cartaA {
         position: absolute;
-        top: 52px;
-        left: 107px;
+        top: 7%;
+        left: 6%;
     }
 
     div#parte2 > div#cartas > div#cartaB {
         position: absolute;
-        top: -38px;
-        left: 441px;
+        top: -5%;
+        left: 34%;
     }
 
     div#parte2 > div#cartas > div#cartaAB {
         position: absolute;
-        top: -150px;
-        left: 811px;
+        top: -20%;
+        left: 64%;
     }
 
     div#parte2 > div#cartas > div#cartaA > a#botao1 {
@@ -74,7 +74,9 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        transform: translate(-683px, -360px);
+        position: absolute;
+        top: -6%;
+        left: -1%;
     }
 
     img#foto1 {
@@ -122,7 +124,7 @@
     div#estrela2 {
         position: absolute;
         top: 522px;
-        left: 565px;
+        left: 562px;
     }
 
     img#foto3 {
@@ -147,33 +149,43 @@
     div#estrela3 {
         position: absolute;
         top: 521px;
-        left: 879px;
+        left: 876px;
     }
 
     h1#t5 {
-        transform: translateY(-151px);
+        position: absolute;
+        top: 12%;
+        left: 45%;
     }
 
     p#p4 {
-        transform: translateY(-151px);
+        position: absolute;
+        top: 22%;
+        left: 12%;
     }
 
     div#parte4 {
         position: absolute;
-        top: 1941px;
+        top: 292%;;
     }
 
     div#parte4 > div#texto {
-        transform: translate(750px, 100px);
+        transform: translate(167%, -196%);
     }
 
-    div#parte4 > div#texto > img#app {
+    #bt {
+        position: absolute;
+        top: 49%;
+        left: 49.3%;
+    }
+
+    div#parte4 img#app {
         width: 450px;
-        transform: translate(-480px, -310px);
+        transform: translate(48%, 15%);
     }
 
     footer {
         position: absolute;
-        top: 2802px;
+        top: 400%;
     }
 }
