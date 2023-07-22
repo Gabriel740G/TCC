@@ -170,18 +170,18 @@
     }
 
     div#parte4 > div#texto {
-        transform: translate(167%, -196%);
+        transform: translate(171%, -196%);
     }
 
     #bt {
         position: absolute;
         top: 49%;
-        left: 49.3%;
+        left: 50.3%;
     }
 
     div#parte4 img#app {
         width: 450px;
-        transform: translate(48%, 15%);
+        transform: translate(60%, 15%);
     }
 
     footer {

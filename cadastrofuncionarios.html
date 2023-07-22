@@ -43,7 +43,7 @@
         <div class="quadrado">
             <a href="cadastroalunos.html" id="opcao1">Cadastrar Aluno</a>
             <a href="cadastrofuncionarios.html" id="opcao2">Cadastrar Funcionário</a>
-            <form action="config.php" method="post">
+            <form action="" method="post">
                 <div id="bloco1">
                     <label for="inome">NOME:</label><br>
                     <input type="text" name="nome" id="inome" class="esp" required minlength="8" maxlength="40"><br>
@@ -85,44 +85,12 @@
         <div class="popup-wrapper">
             <div class="popup">
                 <div class="popup-close">x</div>
-
                 <div class="popup-content">
-                    <h2>Cadastro salvo em registrados</h2>
+                    <h1>Cadastro efetuado com sucesso!</h1>
                 </div>
             </div>
         </div>
     </main>
 </body>
-<script src="app.js"></script>
-<script>
-    var header = document.getElementById('header');
-    var navigationHeader = document.getElementById('navigation_header');
-    var showSidebar = false;
-
-
-    function toggleSidebar() {
-        showSidebar = !showSidebar;
-        if(showSidebar) {
-            navigation_header.style.marginLeft = '-10vw';
-            navigation_header.style.animationName = 'showSidebar'
-            content.style.filter = blur(2);
-        } else {
-            navigation_header.style.marginLeft = '-100vw'
-            navigation_header.style.animationName = ''
-            content.style.filter = '';
-        }
-    }
-
-    function closeSidebar() {
-        if(showSidebar) {
-            toogleSidebar();
-        }
-    }
-
-    window.addEventListener('resize', function(event) {
-        if(window.innerWidth > 768 && showSidebar){
-            toogleSidebar();
-        }
-    });
-</script>
+<script src="JS/cadastrofuncionarios.js"></script>
 </html>

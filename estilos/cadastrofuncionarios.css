@@ -234,22 +234,13 @@ div#bloco4 {
 }
 
 .popup {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 100%;
     max-width: 300px;
     margin: 10% auto;
     padding: 20px;
-    background: var(--cor4);
+    background: white;
     position: relative;
-}
-
-.popup a {
-    color: white;
-    cursor: pointer;
-    padding: 6px 10px;
-    text-decoration: none;
-    background: crimson;
 }
 
 .popup-close {
@@ -258,5 +249,6 @@ div#bloco4 {
     right: 10px;
     cursor: pointer;
 }
+
 
 
