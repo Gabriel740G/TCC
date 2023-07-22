@@ -184,8 +184,7 @@
         transform: translate(60%, 15%);
     }
 
-    footer {
-        position: absolute;
-        top: 400%;
+    .footer-distributed {
+        transform: translateY(745%);
     }
 }
