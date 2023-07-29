@@ -104,6 +104,14 @@ div.quadrado {
 }
 /* Configurações do formulário */
 
+.carro {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 9%;
+    left: 91%;
+}
+
 div#bloco1 {
     width: 228px;
     position: absolute;
