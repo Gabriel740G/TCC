@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/cadastroalunos.css">
+    <link rel="stylesheet" href="estilos/cadastromoto.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
     <title>Auto Moto Escola Barueri</title>
 </head>
@@ -40,36 +40,40 @@
         </div>
     </div>
     <main>
-        <a href="cadastrocarro.html" id="cadastro">
-            <img src="imagens/carro-suv.png" alt="carro" class="carro">
+        <a href="cadastroalunos.html" id="cadastro">
+            <img src="imagens/homem-de-negocios.png" alt="alunos" class="alunos">
         </a>
         <div class="quadrado">
-            <a href="cadastroalunos.html" id="opcao1">Cadastrar Aluno</a>
-            <a href="cadastrofuncionarios.html" id="opcao2">Cadastrar Funcionário</a>
+            <a href="cadastrocarro.html" id="opcao1">Cadastrar Carro</a>
+            <a href="cadastromoto.html" id="opcao2">Cadastrar Moto</a>
             <form action="" method="post">
                 <div id="bloco1">
-                    <label for="inome">NOME:</label><br>
-                    <input type="text" name="nome" id="inome" class="esp" required minlength="8" maxlength="40"><br>
-                    <label for="icpf">CPF:</label><br>
-                    <input type="text" name="CPF" id="icpf" class="esp" required placeholder="000.000.000-00"><br>
-                    <label for="inasc">DATA DE NASCIMENTO:</label><br>
-                    <input type="date" name="data_nasc" id="inasc" class="esp" required><br>
-                    <label for="irg">RG:</label><br>
-                    <input type="text" name="RG" id="irg" class="esp" required placeholder="000.000.000-0"><br>
-                    <label for="itel">TELEFONE:</label><br>
-                    <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx" class="esp"><br>
-                    <label for="iemail">EMAIL:</label><br>
-                    <input type="email" name="email" id="iemail" class="esp" required><br>
+                    <label for="imodelo">MODELO:</label><br>
+                    <input type="text" name="modelo" id="imodelo" class="esp" required><br>
+                    <label for="imarca">MARCA:</label><br>
+                    <input type="text" name="marca" id="imarca" class="esp" required><br>
+                    <label for="iano">ANO:</label><br>
+                    <input type="number" name="ano" id="iano" class="esp" required><br>
+                    <label for="iplaca">PLACA:</label><br>
+                    <input type="text" name="placa" id="iplaca" required class="esp"><br>
+                    <label for="icategoria">CATEGORIA:</label><br>
+                    <input type="text" name="categoria" id="icategoria" class="esp" required><br>
                 </div>
                 <div id="bloco2">
-                    <label for="iend">ENDEREÇO:</label><br>
-                    <input type="text" name="end" id="iend" class="esp" required><br>
-                    <label for="iuser">CRIE UM NOME DE USUÁRIO:</label><br>
-                    <input type="text" name="user" id="iuser" class="esp" required><br>
-                    <label for="ipass">CRIE UMA SENHA:</label><br>
-                    <input type="text" name="pass" id="ipass" class="esp" required><br>
-                    <label for="irm">CRIE UM RM AO ALUNO:</label><br>
-                    <input type="number" name="RM" id="irm" class="esp" required><br>
+                    <label for="icap">CAPACIDADE:</label><br>
+                    <input type="number" name="cap" id="icap" class="esp" required><br>
+                    <label for="iend">COR:</label><br>
+                    <input type="text" name="cor" id="icor" class="esp" required><br>
+                    <label for="iend">CILINDRADAS:</label><br>
+                    <input type="text" name="cor" id="icor" class="esp" required><br>
+                    <label for="itransmissao">TRANSMISSÃO:</label><br>
+                    <select name="transmissao" id="itransmissao">
+                        <option value="manual">Manual</option>
+                        <option value="automatico">Automatico</option>
+                    </select>
+                    <br>
+                    <label for="itipo">TIPO DO COMBUSTÍVEL:</label><br>
+                    <input type="text" name="tipo" id="itipo" class="esp" required><br>
                 </div>
                 <input type="submit" value="CADASTRAR" id="cadastrar">
             </form>
@@ -84,5 +88,5 @@
         </div>
     </main>
 </body>
-<script src="JS/cadastroalunos.js"></script>
+<script src="JS/cadastrofuncionarios.js"></script>
 </html>

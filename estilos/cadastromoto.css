@@ -95,7 +95,6 @@ body {
 /* Configurações de div */
 
 div.quadrado {
-    display: block;
     background-color: var(--cor1);
     width: 74%;
     height: 72%;
@@ -103,14 +102,13 @@ div.quadrado {
     top: 20%;
     left: 14%;
 }
-
 /* Configurações do formulário */
 
-.carro {
-    width: 80px;
-    height: 80px;
+.alunos {
+    width: 70px;
+    height: 70px;
     position: absolute;
-    top: 9%;
+    top: 12%;
     left: 91%;
 }
 
@@ -118,7 +116,7 @@ div#bloco1 {
     width: 228px;
     position: absolute;
     top: 16%;
-    left: 13%;
+    left: 21%
 }
 
 div#bloco2 {
@@ -127,35 +125,28 @@ div#bloco2 {
     top: 16%;
     left: 59%;
 }
-
-form > div#bloco1 > input[type=text], input[type=email], input[type=date], input[type=tel]{
+form > div#bloco1 > input[type=text], input[type=number]{
     border-radius: 13px;
     border: none;
-    padding: 4px;
+    padding: 6px;
+    margin: 3px;
+    margin-top: 6px;
+    margin-bottom: 9px;
 }
 
-form > div#bloco2 > input[type=text], input[type=number]{
+form > div#bloco2 > input[type=text], input[type=number], select{
     border-radius: 13px;
     border: none;
-    padding: 4px;
-}
-
-#inome {
-    width: 260px;
-}
-
-#iend {
-    width: 260px;
-}
-
-#iemail {
-    width: 260px;
+    padding: 6px;
+    margin: 3px;
+    margin-top: 6px;
+    margin-bottom: 9px;
 }
 
 #opcao1 {
     text-decoration: none;
-    color: var(--cor4);
-    background-color: var(--cor2);
+    color: var(--cor2);
+    background-color: var(--cor4);
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -166,10 +157,12 @@ form > div#bloco2 > input[type=text], input[type=number]{
 
 #opcao2 {
     text-decoration: none;
-    color: var(--cor2);
-    background-color: var(--cor4);
+    color: var(--cor4);
+    background-color: var(--cor2);
     border: none;
     padding: 10px;
+    width: 132px;
+    text-align: center;
     border-radius: 20px;
     position: absolute;
     top: 10px;
@@ -187,9 +180,8 @@ form > input[type=submit] {
     font-size: 16px;
     position: absolute;
     top: 83%;
-    left: 44%;
+    left: 43%;
 }
-
 .esp {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -198,7 +190,10 @@ form > input[type=submit] {
 label {
     color: var(--cor2);
     font-weight: normal;
+    cursor: pointer;
 }
+
+/* Configurações do popup */
 
 .popup-wrapper {
     display: none;
@@ -226,3 +221,6 @@ label {
     right: 10px;
     cursor: pointer;
 }
+
+
+
