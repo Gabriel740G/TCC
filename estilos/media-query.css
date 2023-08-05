@@ -19,13 +19,13 @@
 
     main > div#parte2 {
         position: absolute;
-        top: 117%;
+        top: 118%;
         height: 737px;
     }
 
     main > div#parte3 {
         position: absolute;
-        top: 217%;
+        top: 223%;
     }
 
     div#parte2 > div#cartas > h1#t4 {
@@ -166,7 +166,7 @@
 
     div#parte4 {
         position: absolute;
-        top: 292%;;
+        top: 298%;
     }
 
     div#parte4 > div#texto {
